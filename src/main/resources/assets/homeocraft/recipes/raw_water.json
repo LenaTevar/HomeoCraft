@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B",
+        ""      
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:dirt"
+        },
+        "B":
+        {
+        	"item": "minecraft:water_bucket"
+        }
+    },
+    
+    "result":
+    {
+        "item": "homeocraft:preparation",
+        "count": 1
+    }
+}

@@ -1,0 +1,44 @@
+[19:39:17] [main/INFO]: Setting user: Player807
+[19:39:23] [main/WARN]: Skipping bad option: lastServer:
+[19:39:23] [main/INFO]: LWJGL Version: 2.9.4
+[19:39:28] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HomeoCraft
+[19:39:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:39:32] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[19:39:32] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:39:32] [Thread-5/INFO]: OpenAL initialized.
+[19:39:33] [Sound Library Loader/INFO]: Sound engine started
+[19:39:40] [main/INFO]: Created: 512x512 textures-atlas
+[19:39:43] [main/WARN]: Skipping bad option: lastServer:
+[19:39:43] [main/INFO]: Narrator library for x64 successfully loaded
+[19:39:45] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:39:51] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[19:39:51] [Server thread/INFO]: Generating keypair
+[19:39:53] [Server thread/INFO]: Loaded 488 advancements
+[19:39:53] [Server thread/INFO]: Preparing start region for level 0
+[19:39:54] [Server thread/INFO]: Preparing spawn area: 1%
+[19:39:55] [Server thread/INFO]: Preparing spawn area: 58%
+[19:39:56] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:39:58] [Server thread/INFO]: Player807[local:E:dd48ca09] logged in with entity id 217 at (-759.772524044764, 72.0, 387.99392326993944)
+[19:39:58] [Server thread/INFO]: Player807 joined the game
+[19:40:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2531ms behind, skipping 50 tick(s)
+[19:40:02] [Server thread/INFO]: Saving and pausing game...
+[19:40:02] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[19:40:03] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[19:40:03] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[19:40:03] [main/INFO]: Loaded 2 advancements
+[19:40:52] [Server thread/INFO]: Saving and pausing game...
+[19:40:52] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[19:40:52] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[19:40:52] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[19:40:54] [Server thread/INFO]: Stopping server
+[19:40:54] [Server thread/INFO]: Saving players
+[19:40:54] [Server thread/INFO]: Player807 lost connection: Disconnected
+[19:40:54] [Server thread/INFO]: Player807 left the game
+[19:40:54] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[19:40:54] [Server thread/INFO]: Saving worlds
+[19:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[19:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[19:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[19:41:10] [main/INFO]: Stopping!
+[19:41:10] [main/INFO]: SoundSystem shutting down...
+[19:41:10] [main/WARN]: Author: Paul Lamb, www.paulscode.com

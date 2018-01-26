@@ -1,15 +1,15 @@
 [
 {
   "modid": "homeocraft",
-  "name": "Homeocraft",
-  "description": "Homeopathy hits Minecraft! But does nothing.",
+  "name": "HomeoCraft",
+  "description": "Homeopathy hits Minecraft!! And does nothing.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/LenaTevar/Homocraft/wiki",
+  "url": "",
   "updateUrl": "",
-  "authorList": ["Lena_Alcie", "Efrik_The_Art", "Nakkuchan_Our_Muse],
-  "credits": "Botania Team, I have your github opened 24/7 <3 <3",
-  "parent": "",
+  "authorList": ["Alcie","Efrik"],
+  "credits": "Nakkuchan, our muse. The Forge and FML guys, for making this example",
+  "logoFile": "",
   "screenshots": [],
   "dependencies": []
 }
