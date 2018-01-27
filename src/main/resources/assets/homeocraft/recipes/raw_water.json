@@ -1,28 +1,15 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "A",
-        "B",
-        ""      
-    ],
-    
-    "key":
-    {
-        "A":
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
         {
-            "item": "minecraft:dirt"
+            "item": "minecraft:vine"
         },
-        "B":
         {
-        	"item": "minecraft:water_bucket"
+            "item": "minecraft:water_bucket"
         }
-    },
-    
-    "result":
-    {
-        "item": "homeocraft:preparation",
+    ],
+    "result": {
+        "item": "homeocraft:raw_water",
         "count": 1
     }
 }

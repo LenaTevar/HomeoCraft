@@ -1,27 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "A",
-        "B",
-        ""      
-    ],
-    
-    "key":
-    {
-        "A":
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
         {
             "item": "homeocraft:preparation"
         },
-        "B":
         {
-        	"item": "minecraft:water_bucket"
+            "item": "minecraft:water_bucket"
         }
-    },
-    
-    "result":
-    {
+    ],
+    "result": {
         "item": "homeocraft:dilution_1c",
         "count": 1
     }

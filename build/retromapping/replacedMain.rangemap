@@ -1,0 +1,407 @@
+Symbol range map extraction starting
+Processing 12 files
+startProcessing "pi\homeocraft\client\tabs\HomeocraftCreativeTab.java" md5: 2dd05de5432cab16a494146addf56099
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(83) libItems cannot be resolved to a variable
+@|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|8|43|main.java.pi.homeocraft.client.tabs|package|main.java.pi.homeocraft.client.tabs|(file)
+Class Start: main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab
+   @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|194|215|HomeocraftCreativeTab|class|main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab
+   @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|224|236|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: HomeocraftCreativeTab(Ljava/lang/String;)V
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|276|280|name|param|main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab|HomeocraftCreativeTab|(Ljava/lang/String;)V|name|0
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|247|268|HomeocraftCreativeTab|method|main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab|HomeocraftCreativeTab|(Ljava/lang/String;)V
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|269|275|String|class|java.lang.String
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|295|299|name|param|main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab|HomeocraftCreativeTab|(Ljava/lang/String;)V|name|0
+   Method End: HomeocraftCreativeTab(Ljava/lang/String;)V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|308|316|Override|class|java.lang.Override
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|325|334|ItemStack|class|net.minecraft.item.ItemStack
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|335|349|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|pi\homeocraft\client\tabs\HomeocraftCreativeTab.java|404|413|ItemStack|class|net.minecraft.item.ItemStack
+      ERROR SimpleName: libItems null
+      ERROR SimpleName: PREPARATION null
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+Class End  : main.java.pi.homeocraft.client.tabs.HomeocraftCreativeTab
+endProcessing "pi\homeocraft\client\tabs\HomeocraftCreativeTab.java"
+
+startProcessing "pi\homeocraft\common\Homeocraft.java" md5: 79aa80ea04117a5dfa2267b9f8d7c2ec
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.client cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(2) HomeocraftCreativeTab cannot be resolved to a type
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(2) CommonProxy cannot be resolved to a type
+@|pi\homeocraft\common\Homeocraft.java|8|38|main.java.pi.homeocraft.common|package|main.java.pi.homeocraft.common|(file)
+Class Start: main.java.pi.homeocraft.common.Homeocraft
+   @|pi\homeocraft\common\Homeocraft.java|671|674|Mod|class|net.minecraftforge.fml.common.Mod
+   @|pi\homeocraft\common\Homeocraft.java|675|680|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   ERROR SimpleName: libReferences null
+   ERROR SimpleName: MODID null
+   @|pi\homeocraft\common\Homeocraft.java|704|708|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   ERROR SimpleName: libReferences null
+   ERROR SimpleName: NAME null
+   @|pi\homeocraft\common\Homeocraft.java|731|738|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   ERROR SimpleName: libReferences null
+   ERROR SimpleName: VERSION null
+   @|pi\homeocraft\common\Homeocraft.java|777|787|Homeocraft|class|main.java.pi.homeocraft.common.Homeocraft
+   @|pi\homeocraft\common\Homeocraft.java|811|823|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|pi\homeocraft\common\Homeocraft.java|811|823|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|pi\homeocraft\common\Homeocraft.java|824|832|HOMEOTAB|field|main.java.pi.homeocraft.common.Homeocraft|HOMEOTAB|
+   @|pi\homeocraft\common\Homeocraft.java|839|860|HomeocraftCreativeTab|class|HomeocraftCreativeTab
+   @|pi\homeocraft\common\Homeocraft.java|904|914|Homeocraft|class|main.java.pi.homeocraft.common.Homeocraft
+   @|pi\homeocraft\common\Homeocraft.java|880|888|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|pi\homeocraft\common\Homeocraft.java|904|914|Homeocraft|class|main.java.pi.homeocraft.common.Homeocraft
+   @|pi\homeocraft\common\Homeocraft.java|915|924|instance1|field|main.java.pi.homeocraft.common.Homeocraft|instance1|
+   @|pi\homeocraft\common\Homeocraft.java|1039|1050|CommonProxy|class|main.java.pi.homeocraft.common.CommonProxy
+   @|pi\homeocraft\common\Homeocraft.java|930|940|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|pi\homeocraft\common\Homeocraft.java|941|951|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   ERROR SimpleName: libReferences null
+   ERROR SimpleName: PROXY_CLIENT null
+   @|pi\homeocraft\common\Homeocraft.java|982|992|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   ERROR SimpleName: libReferences null
+   ERROR SimpleName: PROXY_COMMON null
+   @|pi\homeocraft\common\Homeocraft.java|1039|1050|CommonProxy|class|main.java.pi.homeocraft.common.CommonProxy
+   @|pi\homeocraft\common\Homeocraft.java|1051|1056|proxy|field|main.java.pi.homeocraft.common.Homeocraft|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1129|1134|event|param|main.java.pi.homeocraft.common.Homeocraft|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|pi\homeocraft\common\Homeocraft.java|1062|1074|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|pi\homeocraft\common\Homeocraft.java|1095|1102|preInit|method|main.java.pi.homeocraft.common.Homeocraft|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1103|1128|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1204|1209|event|param|main.java.pi.homeocraft.common.Homeocraft|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|pi\homeocraft\common\Homeocraft.java|1143|1155|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|pi\homeocraft\common\Homeocraft.java|1176|1180|Init|method|main.java.pi.homeocraft.common.Homeocraft|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1181|1203|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1287|1292|event|param|main.java.pi.homeocraft.common.Homeocraft|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|pi\homeocraft\common\Homeocraft.java|1218|1230|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|pi\homeocraft\common\Homeocraft.java|1251|1259|postInit|method|main.java.pi.homeocraft.common.Homeocraft|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|pi\homeocraft\common\Homeocraft.java|1260|1286|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : main.java.pi.homeocraft.common.Homeocraft
+endProcessing "pi\homeocraft\common\Homeocraft.java"
+
+startProcessing "pi\homeocraft\common\item\FoodBase.java" md5: 59cedb38b9d5688783607593d7cc54f4
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common.Homeocraft cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) Homeocraft cannot be resolved to a variable
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(634) The method registerModels() of type FoodBase must override or implement a supertype method
+    Compile Error! Pb(50) Homeocraft cannot be resolved
+@|pi\homeocraft\common\item\FoodBase.java|8|43|main.java.pi.homeocraft.common.item|package|main.java.pi.homeocraft.common.item|(file)
+Class Start: main.java.pi.homeocraft.common.item.FoodBase
+   @|pi\homeocraft\common\item\FoodBase.java|256|264|FoodBase|class|main.java.pi.homeocraft.common.item.FoodBase
+   @|pi\homeocraft\common\item\FoodBase.java|273|281|ItemFood|class|net.minecraft.item.ItemFood
+   @|pi\homeocraft\common\item\FoodBase.java|293|302|IHasModel|class|IHasModel
+   Method Start: FoodBase(Ljava/lang/String;IZ)V
+      @|pi\homeocraft\common\item\FoodBase.java|330|334|name|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodBase.java|340|350|saturation|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|saturation|1
+      @|pi\homeocraft\common\item\FoodBase.java|360|364|wolf|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|wolf|2
+      @|pi\homeocraft\common\item\FoodBase.java|314|322|FoodBase|method|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V
+      @|pi\homeocraft\common\item\FoodBase.java|323|329|String|class|java.lang.String
+      @|pi\homeocraft\common\item\FoodBase.java|376|386|saturation|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|saturation|1
+      @|pi\homeocraft\common\item\FoodBase.java|388|392|wolf|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|wolf|2
+      @|pi\homeocraft\common\item\FoodBase.java|397|415|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|pi\homeocraft\common\item\FoodBase.java|416|420|name|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodBase.java|425|440|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|pi\homeocraft\common\item\FoodBase.java|441|445|name|param|main.java.pi.homeocraft.common.item.FoodBase|FoodBase|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodBase.java|450|464|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      ERROR SimpleName: Homeocraft null
+      ERROR SimpleName: HOMEOTAB null
+      ERROR SimpleName: ItemInit null
+      ERROR SimpleName: ITEMS null
+      ERROR SimpleName: add null
+   Method End: FoodBase(Ljava/lang/String;IZ)V
+   Method Start: registerModels()V
+      @|pi\homeocraft\common\item\FoodBase.java|529|537|Override|class|java.lang.Override
+      @|pi\homeocraft\common\item\FoodBase.java|551|565|registerModels|method|main.java.pi.homeocraft.common.item.FoodBase|registerModels|()V
+      ERROR SimpleName: Homeocraft null
+      ERROR SimpleName: proxy null
+      ERROR SimpleName: registerItemRenderer null
+   Method End: registerModels()V
+Class End  : main.java.pi.homeocraft.common.item.FoodBase
+endProcessing "pi\homeocraft\common\item\FoodBase.java"
+
+startProcessing "pi\homeocraft\common\item\FoodPoison.java" md5: e05f06c9a2313d5ec878bf391cc2a284
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common.Homeocraft cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) Homeocraft cannot be resolved to a variable
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(634) The method registerModels() of type FoodPoison must override or implement a supertype method
+    Compile Error! Pb(50) Homeocraft cannot be resolved
+@|pi\homeocraft\common\item\FoodPoison.java|8|43|main.java.pi.homeocraft.common.item|package|main.java.pi.homeocraft.common.item|(file)
+Class Start: main.java.pi.homeocraft.common.item.FoodPoison
+   @|pi\homeocraft\common\item\FoodPoison.java|333|343|FoodPoison|class|main.java.pi.homeocraft.common.item.FoodPoison
+   @|pi\homeocraft\common\item\FoodPoison.java|352|360|ItemFood|class|net.minecraft.item.ItemFood
+   @|pi\homeocraft\common\item\FoodPoison.java|372|381|IHasModel|class|IHasModel
+   Method Start: FoodPoison(Ljava/lang/String;IZ)V
+      @|pi\homeocraft\common\item\FoodPoison.java|411|415|name|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodPoison.java|421|427|amount|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|amount|1
+      @|pi\homeocraft\common\item\FoodPoison.java|437|447|isWolfFood|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|isWolfFood|2
+      @|pi\homeocraft\common\item\FoodPoison.java|393|403|FoodPoison|method|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V
+      @|pi\homeocraft\common\item\FoodPoison.java|404|410|String|class|java.lang.String
+      @|pi\homeocraft\common\item\FoodPoison.java|460|466|amount|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|amount|1
+      @|pi\homeocraft\common\item\FoodPoison.java|468|478|isWolfFood|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|isWolfFood|2
+      @|pi\homeocraft\common\item\FoodPoison.java|483|501|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|pi\homeocraft\common\item\FoodPoison.java|502|506|name|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodPoison.java|511|526|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|pi\homeocraft\common\item\FoodPoison.java|527|531|name|param|main.java.pi.homeocraft.common.item.FoodPoison|FoodPoison|(Ljava/lang/String;IZ)V|name|0
+      @|pi\homeocraft\common\item\FoodPoison.java|536|550|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      ERROR SimpleName: Homeocraft null
+      ERROR SimpleName: HOMEOTAB null
+      @|pi\homeocraft\common\item\FoodPoison.java|575|590|setPotionEffect|method|net.minecraft.item.ItemFood|setPotionEffect|(Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;
+      @|pi\homeocraft\common\item\FoodPoison.java|595|607|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|pi\homeocraft\common\item\FoodPoison.java|608|614|Potion|class|net.minecraft.potion.Potion
+      @|pi\homeocraft\common\item\FoodPoison.java|615|628|getPotionById|method|net.minecraft.potion.Potion|getPotionById|(I)Lnet/minecraft/potion/Potion;
+      ERROR SimpleName: ItemInit null
+      ERROR SimpleName: ITEMS null
+      ERROR SimpleName: add null
+   Method End: FoodPoison(Ljava/lang/String;IZ)V
+   Method Start: registerModels()V
+      @|pi\homeocraft\common\item\FoodPoison.java|675|683|Override|class|java.lang.Override
+      @|pi\homeocraft\common\item\FoodPoison.java|697|711|registerModels|method|main.java.pi.homeocraft.common.item.FoodPoison|registerModels|()V
+      ERROR SimpleName: Homeocraft null
+      ERROR SimpleName: proxy null
+      ERROR SimpleName: registerItemRenderer null
+   Method End: registerModels()V
+Class End  : main.java.pi.homeocraft.common.item.FoodPoison
+endProcessing "pi\homeocraft\common\item\FoodPoison.java"
+
+startProcessing "pi\homeocraft\core\handler\RegistryHandler.java" md5: 8c6afad18064835de5aa41dd4c55f76c
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.init cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.init cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.interfaces cannot be resolved
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(50) BlockInit cannot be resolved
+    Compile Error! Pb(83) ItemInit cannot be resolved to a variable
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) BlockInit cannot be resolved to a variable
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+@|pi\homeocraft\core\handler\RegistryHandler.java|8|44|main.java.pi.homeocraft.core.handler|package|main.java.pi.homeocraft.core.handler|(file)
+Class Start: main.java.pi.homeocraft.core.handler.RegistryHandler
+   @|pi\homeocraft\core\handler\RegistryHandler.java|509|527|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|pi\homeocraft\core\handler\RegistryHandler.java|541|556|RegistryHandler|class|main.java.pi.homeocraft.core.handler.RegistryHandler
+   Method Start: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|642|647|event|param|main.java.pi.homeocraft.core.handler.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|pi\homeocraft\core\handler\RegistryHandler.java|563|577|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|pi\homeocraft\core\handler\RegistryHandler.java|598|612|onItemRegister|method|main.java.pi.homeocraft.core.handler.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|613|635|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|pi\homeocraft\core\handler\RegistryHandler.java|636|640|Item|class|net.minecraft.item.Item
+      @|pi\homeocraft\core\handler\RegistryHandler.java|657|662|event|param|main.java.pi.homeocraft.core.handler.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|pi\homeocraft\core\handler\RegistryHandler.java|663|674|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|pi\homeocraft\core\handler\RegistryHandler.java|677|688|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      ERROR SimpleName: ItemInit null
+      ERROR SimpleName: ITEMS null
+      ERROR SimpleName: toArray null
+      @|pi\homeocraft\core\handler\RegistryHandler.java|716|720|Item|class|net.minecraft.item.Item
+   Method End: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|815|820|event|param|main.java.pi.homeocraft.core.handler.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|pi\homeocraft\core\handler\RegistryHandler.java|734|748|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|pi\homeocraft\core\handler\RegistryHandler.java|769|784|onBlockRegister|method|main.java.pi.homeocraft.core.handler.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|785|807|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|pi\homeocraft\core\handler\RegistryHandler.java|808|813|Block|class|net.minecraft.block.Block
+      @|pi\homeocraft\core\handler\RegistryHandler.java|826|831|event|param|main.java.pi.homeocraft.core.handler.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|pi\homeocraft\core\handler\RegistryHandler.java|832|843|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|pi\homeocraft\core\handler\RegistryHandler.java|846|857|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      ERROR SimpleName: BlockInit null
+      ERROR SimpleName: BLOCKS null
+      ERROR SimpleName: toArray null
+      @|pi\homeocraft\core\handler\RegistryHandler.java|887|892|Block|class|net.minecraft.block.Block
+   Method End: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|978|983|event|param|main.java.pi.homeocraft.core.handler.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|pi\homeocraft\core\handler\RegistryHandler.java|908|922|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|pi\homeocraft\core\handler\RegistryHandler.java|943|958|onModelRegister|method|main.java.pi.homeocraft.core.handler.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|pi\homeocraft\core\handler\RegistryHandler.java|959|977|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|pi\homeocraft\core\handler\RegistryHandler.java|996|1000|Item|class|net.minecraft.item.Item
+      ERROR SimpleName: ItemInit null
+      ERROR SimpleName: ITEMS null
+      @|pi\homeocraft\core\handler\RegistryHandler.java|1052|1061|IHasModel|class|IHasModel
+      @|pi\homeocraft\core\handler\RegistryHandler.java|1070|1079|IHasModel|class|IHasModel
+      ERROR SimpleName: registerModels null
+      @|pi\homeocraft\core\handler\RegistryHandler.java|1121|1126|Block|class|net.minecraft.block.Block
+      ERROR SimpleName: BlockInit null
+      ERROR SimpleName: BLOCKS null
+      @|pi\homeocraft\core\handler\RegistryHandler.java|1178|1187|IHasModel|class|IHasModel
+      @|pi\homeocraft\core\handler\RegistryHandler.java|1195|1204|IHasModel|class|IHasModel
+      ERROR SimpleName: registerModels null
+   Method End: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : main.java.pi.homeocraft.core.handler.RegistryHandler
+endProcessing "pi\homeocraft\core\handler\RegistryHandler.java"
+
+startProcessing "pi\homeocraft\core\init\BlockInit.java" md5: 8ccc19ab446183f558a04c102e1b59e5
+@|pi\homeocraft\core\init\BlockInit.java|8|41|main.java.pi.homeocraft.core.init|package|main.java.pi.homeocraft.core.init|(file)
+Class Start: main.java.pi.homeocraft.core.init.BlockInit
+   @|pi\homeocraft\core\init\BlockInit.java|144|153|BlockInit|class|main.java.pi.homeocraft.core.init.BlockInit
+   @|pi\homeocraft\core\init\BlockInit.java|183|188|Block|class|net.minecraft.block.Block
+   @|pi\homeocraft\core\init\BlockInit.java|177|181|List|class|java.util.List
+   @|pi\homeocraft\core\init\BlockInit.java|177|181|List|class|java.util.List
+   @|pi\homeocraft\core\init\BlockInit.java|183|188|Block|class|net.minecraft.block.Block
+   @|pi\homeocraft\core\init\BlockInit.java|190|196|BLOCKS|field|main.java.pi.homeocraft.core.init.BlockInit|BLOCKS|
+   @|pi\homeocraft\core\init\BlockInit.java|203|212|ArrayList|class|java.util.ArrayList
+   @|pi\homeocraft\core\init\BlockInit.java|213|218|Block|class|net.minecraft.block.Block
+Class End  : main.java.pi.homeocraft.core.init.BlockInit
+endProcessing "pi\homeocraft\core\init\BlockInit.java"
+
+startProcessing "pi\homeocraft\core\init\ItemInit.java" md5: 765c9242046e3acc72d62aa43325d139
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.lib cannot be resolved
+    Compile Error! Pb(2) libItems cannot be resolved to a type
+    Compile Error! Pb(2) libItems cannot be resolved to a type
+@|pi\homeocraft\core\init\ItemInit.java|8|41|main.java.pi.homeocraft.core.init|package|main.java.pi.homeocraft.core.init|(file)
+Class Start: main.java.pi.homeocraft.core.init.ItemInit
+   @|pi\homeocraft\core\init\ItemInit.java|192|200|ItemInit|class|main.java.pi.homeocraft.core.init.ItemInit
+   @|pi\homeocraft\core\init\ItemInit.java|230|234|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\init\ItemInit.java|224|228|List|class|java.util.List
+   @|pi\homeocraft\core\init\ItemInit.java|224|228|List|class|java.util.List
+   @|pi\homeocraft\core\init\ItemInit.java|230|234|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\init\ItemInit.java|236|241|ITEMS|field|main.java.pi.homeocraft.core.init.ItemInit|ITEMS|
+   @|pi\homeocraft\core\init\ItemInit.java|248|257|ArrayList|class|java.util.ArrayList
+   @|pi\homeocraft\core\init\ItemInit.java|258|262|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\init\ItemInit.java|290|298|libItems|class|main.java.pi.homeocraft.core.init.libItems
+   @|pi\homeocraft\core\init\ItemInit.java|290|298|libItems|class|main.java.pi.homeocraft.core.init.libItems
+   @|pi\homeocraft\core\init\ItemInit.java|299|308|MOD_ITEMS|field|main.java.pi.homeocraft.core.init.ItemInit|MOD_ITEMS|
+   @|pi\homeocraft\core\init\ItemInit.java|315|323|libItems|class|libItems
+Class End  : main.java.pi.homeocraft.core.init.ItemInit
+endProcessing "pi\homeocraft\core\init\ItemInit.java"
+
+startProcessing "pi\homeocraft\core\interfaces\IHasModel.java" md5: 6121b9b7534080134be350bb86975adb
+@|pi\homeocraft\core\interfaces\IHasModel.java|8|47|main.java.pi.homeocraft.core.interfaces|package|main.java.pi.homeocraft.core.interfaces|(file)
+Class Start: main.java.pi.homeocraft.core.interfaces.IHasModel
+   @|pi\homeocraft\core\interfaces\IHasModel.java|67|76|IHasModel|class|main.java.pi.homeocraft.core.interfaces.IHasModel
+   Method Start: registerModels()V
+      @|pi\homeocraft\core\interfaces\IHasModel.java|92|106|registerModels|method|main.java.pi.homeocraft.core.interfaces.IHasModel|registerModels|()V
+   Method End: registerModels()V
+Class End  : main.java.pi.homeocraft.core.interfaces.IHasModel
+endProcessing "pi\homeocraft\core\interfaces\IHasModel.java"
+
+startProcessing "pi\homeocraft\core\lib\libItems.java" md5: b9e2bf7db0f28c3a3d8c68147059eaec
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common cannot be resolved
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodPoison cannot be resolved to a type
+@|pi\homeocraft\core\lib\libItems.java|8|40|main.java.pi.homeocraft.core.lib|package|main.java.pi.homeocraft.core.lib|(file)
+Class Start: main.java.pi.homeocraft.core.lib.libItems
+   @|pi\homeocraft\core\lib\libItems.java|197|205|libItems|class|main.java.pi.homeocraft.core.lib.libItems
+   @|pi\homeocraft\core\lib\libItems.java|229|233|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|229|233|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|234|245|PREPARATION|field|main.java.pi.homeocraft.core.lib.libItems|PREPARATION|
+   @|pi\homeocraft\core\lib\libItems.java|252|260|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|310|314|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|310|314|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|315|326|DILUTION_1C|field|main.java.pi.homeocraft.core.lib.libItems|DILUTION_1C|
+   @|pi\homeocraft\core\lib\libItems.java|333|341|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|389|393|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|389|393|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|394|405|DILUTION_2C|field|main.java.pi.homeocraft.core.lib.libItems|DILUTION_2C|
+   @|pi\homeocraft\core\lib\libItems.java|412|420|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|468|472|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|468|472|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|473|484|DILUTION_3C|field|main.java.pi.homeocraft.core.lib.libItems|DILUTION_3C|
+   @|pi\homeocraft\core\lib\libItems.java|491|499|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|547|551|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|547|551|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|552|563|DILUTION_4C|field|main.java.pi.homeocraft.core.lib.libItems|DILUTION_4C|
+   @|pi\homeocraft\core\lib\libItems.java|570|578|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|626|630|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|626|630|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|631|642|DILUTION_5C|field|main.java.pi.homeocraft.core.lib.libItems|DILUTION_5C|
+   @|pi\homeocraft\core\lib\libItems.java|649|657|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|707|711|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|707|711|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|712|716|PILL|field|main.java.pi.homeocraft.core.lib.libItems|PILL|
+   @|pi\homeocraft\core\lib\libItems.java|723|731|FoodBase|class|FoodBase
+   @|pi\homeocraft\core\lib\libItems.java|772|776|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|772|776|Item|class|net.minecraft.item.Item
+   @|pi\homeocraft\core\lib\libItems.java|777|786|RAW_WATER|field|main.java.pi.homeocraft.core.lib.libItems|RAW_WATER|
+   @|pi\homeocraft\core\lib\libItems.java|793|803|FoodPoison|class|FoodPoison
+Class End  : main.java.pi.homeocraft.core.lib.libItems
+endProcessing "pi\homeocraft\core\lib\libItems.java"
+
+startProcessing "pi\homeocraft\core\lib\libReferences.java" md5: 013578114eac78ecc0241ae87dae0c90
+@|pi\homeocraft\core\lib\libReferences.java|8|40|main.java.pi.homeocraft.core.lib|package|main.java.pi.homeocraft.core.lib|(file)
+Class Start: main.java.pi.homeocraft.core.lib.libReferences
+   @|pi\homeocraft\core\lib\libReferences.java|56|69|libReferences|class|main.java.pi.homeocraft.core.lib.libReferences
+   @|pi\homeocraft\core\lib\libReferences.java|94|100|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|94|100|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|101|105|NAME|field|main.java.pi.homeocraft.core.lib.libReferences|NAME|
+   @|pi\homeocraft\core\lib\libReferences.java|143|149|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|143|149|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|150|157|VERSION|field|main.java.pi.homeocraft.core.lib.libReferences|VERSION|
+   @|pi\homeocraft\core\lib\libReferences.java|193|199|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|193|199|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|200|205|MODID|field|main.java.pi.homeocraft.core.lib.libReferences|MODID|
+   @|pi\homeocraft\core\lib\libReferences.java|243|249|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|243|249|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|250|262|PROXY_CLIENT|field|main.java.pi.homeocraft.core.lib.libReferences|PROXY_CLIENT|
+   @|pi\homeocraft\core\lib\libReferences.java|336|342|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|336|342|String|class|java.lang.String
+   @|pi\homeocraft\core\lib\libReferences.java|343|355|PROXY_COMMON|field|main.java.pi.homeocraft.core.lib.libReferences|PROXY_COMMON|
+Class End  : main.java.pi.homeocraft.core.lib.libReferences
+endProcessing "pi\homeocraft\core\lib\libReferences.java"
+
+startProcessing "pi\homeocraft\core\proxy\ClientProxy.java" md5: 0eaa6e03d38994b513e7a0477d9303ef
+    Compile Error! Pb(2) CommonProxy cannot be resolved to a type
+    Compile Error! Pb(634) The method registerItemRenderer(Item, int, String) of type ClientProxy must override or implement a supertype method
+@|pi\homeocraft\core\proxy\ClientProxy.java|8|42|main.java.pi.homeocraft.core.proxy|package|main.java.pi.homeocraft.core.proxy|(file)
+Class Start: main.java.pi.homeocraft.core.proxy.ClientProxy
+   @|pi\homeocraft\core\proxy\ClientProxy.java|215|226|ClientProxy|class|main.java.pi.homeocraft.core.proxy.ClientProxy
+   @|pi\homeocraft\core\proxy\ClientProxy.java|235|246|CommonProxy|class|CommonProxy
+   Method Start: registerModel()V
+      @|pi\homeocraft\core\proxy\ClientProxy.java|271|284|registerModel|method|main.java.pi.homeocraft.core.proxy.ClientProxy|registerModel|()V
+   Method End: registerModel()V
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|pi\homeocraft\core\proxy\ClientProxy.java|343|347|item|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|pi\homeocraft\core\proxy\ClientProxy.java|353|357|meta|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|pi\homeocraft\core\proxy\ClientProxy.java|366|368|id|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|pi\homeocraft\core\proxy\ClientProxy.java|295|303|Override|class|java.lang.Override
+      @|pi\homeocraft\core\proxy\ClientProxy.java|317|337|registerItemRenderer|method|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|pi\homeocraft\core\proxy\ClientProxy.java|338|342|Item|class|net.minecraft.item.Item
+      @|pi\homeocraft\core\proxy\ClientProxy.java|359|365|String|class|java.lang.String
+      @|pi\homeocraft\core\proxy\ClientProxy.java|374|385|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|pi\homeocraft\core\proxy\ClientProxy.java|386|416|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|pi\homeocraft\core\proxy\ClientProxy.java|417|421|item|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|pi\homeocraft\core\proxy\ClientProxy.java|423|427|meta|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|pi\homeocraft\core\proxy\ClientProxy.java|437|458|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|pi\homeocraft\core\proxy\ClientProxy.java|459|463|item|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|pi\homeocraft\core\proxy\ClientProxy.java|464|479|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|pi\homeocraft\core\proxy\ClientProxy.java|482|484|id|param|main.java.pi.homeocraft.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : main.java.pi.homeocraft.core.proxy.ClientProxy
+endProcessing "pi\homeocraft\core\proxy\ClientProxy.java"
+
+startProcessing "pi\homeocraft\core\proxy\CommonProxy.java" md5: 5b7771fbc4e4b18e585351f38106c80d
+@|pi\homeocraft\core\proxy\CommonProxy.java|8|42|main.java.pi.homeocraft.core.proxy|package|main.java.pi.homeocraft.core.proxy|(file)
+Class Start: main.java.pi.homeocraft.core.proxy.CommonProxy
+   @|pi\homeocraft\core\proxy\CommonProxy.java|91|102|CommonProxy|class|main.java.pi.homeocraft.core.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|pi\homeocraft\core\proxy\CommonProxy.java|144|148|item|param|main.java.pi.homeocraft.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|pi\homeocraft\core\proxy\CommonProxy.java|154|158|meta|param|main.java.pi.homeocraft.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|pi\homeocraft\core\proxy\CommonProxy.java|167|169|id|param|main.java.pi.homeocraft.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|pi\homeocraft\core\proxy\CommonProxy.java|118|138|registerItemRenderer|method|main.java.pi.homeocraft.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|pi\homeocraft\core\proxy\CommonProxy.java|139|143|Item|class|net.minecraft.item.Item
+      @|pi\homeocraft\core\proxy\CommonProxy.java|160|166|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : main.java.pi.homeocraft.core.proxy.CommonProxy
+endProcessing "pi\homeocraft\core\proxy\CommonProxy.java"
+

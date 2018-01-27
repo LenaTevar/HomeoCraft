@@ -1,0 +1,94 @@
+Symbol range map extraction starting
+Processing 12 files
+startProcessing "pi\homeocraft\client\tabs\HomeocraftCreativeTab.java" md5: 2dd05de5432cab16a494146addf56099
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(83) libItems cannot be resolved to a variable
+endProcessing "pi\homeocraft\client\tabs\HomeocraftCreativeTab.java"
+
+startProcessing "pi\homeocraft\common\Homeocraft.java" md5: 79aa80ea04117a5dfa2267b9f8d7c2ec
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.client cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(2) HomeocraftCreativeTab cannot be resolved to a type
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(83) libReferences cannot be resolved to a variable
+    Compile Error! Pb(2) CommonProxy cannot be resolved to a type
+endProcessing "pi\homeocraft\common\Homeocraft.java"
+
+startProcessing "pi\homeocraft\common\item\FoodBase.java" md5: 59cedb38b9d5688783607593d7cc54f4
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common.Homeocraft cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) Homeocraft cannot be resolved to a variable
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(634) The method registerModels() of type FoodBase must override or implement a supertype method
+    Compile Error! Pb(50) Homeocraft cannot be resolved
+endProcessing "pi\homeocraft\common\item\FoodBase.java"
+
+startProcessing "pi\homeocraft\common\item\FoodPoison.java" md5: e05f06c9a2313d5ec878bf391cc2a284
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common.Homeocraft cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core cannot be resolved
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) Homeocraft cannot be resolved to a variable
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(634) The method registerModels() of type FoodPoison must override or implement a supertype method
+    Compile Error! Pb(50) Homeocraft cannot be resolved
+endProcessing "pi\homeocraft\common\item\FoodPoison.java"
+
+startProcessing "pi\homeocraft\core\handler\RegistryHandler.java" md5: 8c6afad18064835de5aa41dd4c55f76c
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.init cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.init cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.interfaces cannot be resolved
+    Compile Error! Pb(50) ItemInit cannot be resolved
+    Compile Error! Pb(50) BlockInit cannot be resolved
+    Compile Error! Pb(83) ItemInit cannot be resolved to a variable
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(83) BlockInit cannot be resolved to a variable
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+    Compile Error! Pb(2) IHasModel cannot be resolved to a type
+endProcessing "pi\homeocraft\core\handler\RegistryHandler.java"
+
+startProcessing "pi\homeocraft\core\init\BlockInit.java" md5: 8ccc19ab446183f558a04c102e1b59e5
+endProcessing "pi\homeocraft\core\init\BlockInit.java"
+
+startProcessing "pi\homeocraft\core\init\ItemInit.java" md5: 765c9242046e3acc72d62aa43325d139
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.core.lib cannot be resolved
+    Compile Error! Pb(2) libItems cannot be resolved to a type
+    Compile Error! Pb(2) libItems cannot be resolved to a type
+endProcessing "pi\homeocraft\core\init\ItemInit.java"
+
+startProcessing "pi\homeocraft\core\interfaces\IHasModel.java" md5: 6121b9b7534080134be350bb86975adb
+endProcessing "pi\homeocraft\core\interfaces\IHasModel.java"
+
+startProcessing "pi\homeocraft\core\lib\libItems.java" md5: b9e2bf7db0f28c3a3d8c68147059eaec
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common cannot be resolved
+    Compile Error! Pb(390) The import main.java.pi.homeocraft.common cannot be resolved
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodBase cannot be resolved to a type
+    Compile Error! Pb(2) FoodPoison cannot be resolved to a type
+endProcessing "pi\homeocraft\core\lib\libItems.java"
+
+startProcessing "pi\homeocraft\core\lib\libReferences.java" md5: 013578114eac78ecc0241ae87dae0c90
+endProcessing "pi\homeocraft\core\lib\libReferences.java"
+
+startProcessing "pi\homeocraft\core\proxy\ClientProxy.java" md5: 0eaa6e03d38994b513e7a0477d9303ef
+    Compile Error! Pb(2) CommonProxy cannot be resolved to a type
+    Compile Error! Pb(634) The method registerItemRenderer(Item, int, String) of type ClientProxy must override or implement a supertype method
+endProcessing "pi\homeocraft\core\proxy\ClientProxy.java"
+
+startProcessing "pi\homeocraft\core\proxy\CommonProxy.java" md5: 5b7771fbc4e4b18e585351f38106c80d
+endProcessing "pi\homeocraft\core\proxy\CommonProxy.java"
+
