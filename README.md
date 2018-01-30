@@ -14,3 +14,6 @@ Mix dilution 5c with sugar and you will get a sugar pill that does nothing!
 
 Raw Water
 Mix a vine with a bucket of water and you will get raw water, real living water. It actually does something! It gives you cholera! 
+
+
+Trying to fix the pre-post-init thing or at leats, a new way to organize it. 
