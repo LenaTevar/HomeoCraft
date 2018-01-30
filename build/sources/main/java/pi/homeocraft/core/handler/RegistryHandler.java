@@ -13,14 +13,16 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
 public class RegistryHandler {
-	public static final List <Item> ITEMS = new ArrayList<Item>();
+	public static List <Item> ITEMS= new ArrayList<Item>();
+	public static ItemInit libItems = new ItemInit();
 	
-	public static final ItemInit libItems = new ItemInit(); 
-	
+		
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event ) {
 		
-		event.getRegistry().registerAll(ITEMS.toArray(new Item[0]));
+		//event.getRegistry().registerAll(ITEMS.toArray(new Item[0]));
+		
+		ITEMS.stream().forEach(a -> event.getRegistry().register(a));
 	}
 	
 	
