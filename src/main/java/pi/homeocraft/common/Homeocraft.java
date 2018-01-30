@@ -23,7 +23,9 @@ public class Homeocraft {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {}
+	public static void preInit(FMLPreInitializationEvent event) {
+		
+	}
 	
 	@EventHandler
 	public static void Init(FMLInitializationEvent event) {}

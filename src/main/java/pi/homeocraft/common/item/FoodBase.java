@@ -1,9 +1,9 @@
 package main.java.pi.homeocraft.common.item;
 
-import main.java.pi.homeocraft.common.Homeocraft;
-import main.java.pi.homeocraft.core.init.ItemInit;
-import main.java.pi.homeocraft.core.interfaces.IHasModel;
 
+import main.java.pi.homeocraft.common.Homeocraft;
+import main.java.pi.homeocraft.core.handler.RegistryHandler;
+import main.java.pi.homeocraft.core.interfaces.IHasModel;
 import net.minecraft.item.ItemFood;
 
 public class FoodBase extends ItemFood implements IHasModel{
@@ -14,7 +14,7 @@ public class FoodBase extends ItemFood implements IHasModel{
 		setRegistryName(name);
 		setCreativeTab(Homeocraft.HOMEOTAB);
 		
-		ItemInit.ITEMS.add(this);
+		RegistryHandler.ITEMS.add(this);
 				
 	}
 
