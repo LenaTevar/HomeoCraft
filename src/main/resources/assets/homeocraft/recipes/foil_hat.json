@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " B ",
+        "A A"     
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:paper"
+        },
+        "B":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "homeocraft:foil_hat",
+        "count": 1
+    }
+}

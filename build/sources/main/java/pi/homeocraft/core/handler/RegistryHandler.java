@@ -25,13 +25,6 @@ public class RegistryHandler {
 		ITEMS.stream().forEach(a -> event.getRegistry().register(a));
 	}
 	
-	
-	//I don't have blocks but I may check this in the future... 
-//	@SubscribeEvent
-//	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
-//		event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block [0]));	
-//	}
-	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
 		
@@ -39,14 +32,28 @@ public class RegistryHandler {
 		  .forEach(target ->((IHasModel) target).registerModels());
 		
 		
-		  
 		
-//		for(Item item : ItemInit.ITEMS) {
-//			
-//			if(item instanceof IHasModel) 
-//				((IHasModel)item).registerModels();
-//			
+		
+		
+		
+		
+		
+		
+		
+		
+//		for (Item item : ItemInit.ITEMS) {
+//		if (item instanceof IHasModel) {
+//			((IHasModel)item).registerModels();	
 //		}
+//	}
+	
+//	for (Block block : BlockInit.BLOCKS) {
+//		if(block instanceof IHasModel) {
+//			((IHasModel)block).registerModels();
+//		}
+//	}
+//}
+//
 
 	}
 }

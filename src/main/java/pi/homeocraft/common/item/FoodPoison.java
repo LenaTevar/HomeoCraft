@@ -16,7 +16,6 @@ public class FoodPoison extends ItemFood implements IHasModel {
 		setRegistryName(name);
 		setCreativeTab(Homeocraft.HOMEOTAB);
 		setPotionEffect(new PotionEffect(Potion.getPotionById(18)), 100);
-		RegistryHandler.ITEMS.add(this);
 	}
 
 	@Override

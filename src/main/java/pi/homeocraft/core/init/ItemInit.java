@@ -2,6 +2,7 @@ package main.java.pi.homeocraft.core.init;
 
 import main.java.pi.homeocraft.common.item.FoodBase;
 import main.java.pi.homeocraft.common.item.FoodPoison;
+import main.java.pi.homeocraft.common.item.ItemBase;
 import main.java.pi.homeocraft.core.handler.RegistryHandler;
 import net.minecraft.item.Item;
 
@@ -10,7 +11,6 @@ public class ItemInit {
 		this.init();
 	}
 	
-	//core.handler.registryHandler -> registerAll + registerModel
 	public static final Item PREPARATION = new FoodBase("preparation", 0, false);
 	public static final Item DILUTION_1C = new FoodBase("dilution_1c", 0, false);
 	public static final Item DILUTION_2C = new FoodBase("dilution_2c", 0, false);
@@ -19,6 +19,7 @@ public class ItemInit {
 	public static final Item DILUTION_5C = new FoodBase("dilution_5c", 0, false);
 	public static final Item PILL = new FoodBase("pill", 0, false);
 	public static final Item RAW_WATER = new FoodPoison("raw_water", 0, false);
+	public static final Item FOIL_HAT = new ItemBase("foil_hat");
 
 	public void init() {
 		RegistryHandler.ITEMS.add(PREPARATION);
@@ -29,5 +30,6 @@ public class ItemInit {
 		RegistryHandler.ITEMS.add(DILUTION_5C);
 		RegistryHandler.ITEMS.add(PILL);
 		RegistryHandler.ITEMS.add(RAW_WATER);
+		RegistryHandler.ITEMS.add(FOIL_HAT);
 	}
 }
