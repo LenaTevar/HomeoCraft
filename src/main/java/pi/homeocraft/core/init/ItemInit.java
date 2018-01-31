@@ -1,5 +1,6 @@
 package main.java.pi.homeocraft.core.init;
 
+import main.java.pi.homeocraft.common.item.BaubleHat;
 import main.java.pi.homeocraft.common.item.FoodBase;
 import main.java.pi.homeocraft.common.item.FoodPoison;
 import main.java.pi.homeocraft.common.item.ItemBase;
@@ -19,7 +20,7 @@ public class ItemInit {
 	public static final Item DILUTION_5C = new FoodBase("dilution_5c", 0, false);
 	public static final Item PILL = new FoodBase("pill", 0, false);
 	public static final Item RAW_WATER = new FoodPoison("raw_water", 0, false);
-	public static final Item FOIL_HAT = new ItemBase("foil_hat");
+	public static final Item FOIL_HAT = new BaubleHat("foil_hat");
 
 	public void init() {
 		RegistryHandler.ITEMS.add(PREPARATION);

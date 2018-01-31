@@ -1,7 +1,6 @@
 package main.java.pi.homeocraft.common.item;
 
 import main.java.pi.homeocraft.common.Homeocraft;
-import main.java.pi.homeocraft.core.handler.RegistryHandler;
 import main.java.pi.homeocraft.core.interfaces.IHasModel;
 import net.minecraft.item.ItemFood;
 import net.minecraft.potion.Potion;
